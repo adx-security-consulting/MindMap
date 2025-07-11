@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mind Map Access</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: #0f0;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 40px;
+      text-shadow: 0 0 10px #0f0;
+    }
+
+    .btn {
+      padding: 20px 40px;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #000;
+      background-color: #0f0;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0 0 20px #0f0;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #080;
+      color: #fff;
+      box-shadow: 0 0 30px #0f0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to the Secure Console</h1>
+  <button class="btn" onclick="redirectToMindMap()">CLICK HERE FOR MIND MAP</button>
+
+  <script>
+    // Redirection function
+    function redirectToMindMap() {
+      window.location.href = 'consultit_server_upgrade_mindmap.svg';
+    }
+  </script>
+</body>
+</html>
